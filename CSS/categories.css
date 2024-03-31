@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.logo img {
+    max-width: 100px; /* Adjust logo size as needed */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    margin-right: 20px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Main styles */
+main {
+    padding: 50px;
+}
+
+.kategori {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.kategori h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.kategori p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust card width */
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+}

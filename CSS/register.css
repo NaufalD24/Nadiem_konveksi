@@ -1,0 +1,93 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.logo img {
+    max-width: 100px; /* Adjust logo size as needed */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    margin-right: 20px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Main styles */
+main {
+    padding: 50px;
+}
+
+/* Form styles */
+.form-login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.form-login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text color */
+}
+
+.form-login input[type="email"],
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+.form-login button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+}
+
+.form-login button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+}

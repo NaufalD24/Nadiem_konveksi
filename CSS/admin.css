@@ -1,0 +1,100 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Setting box-sizing */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Setting body font and background */
+  body {
+    font-family: Arial, sans-serif; /* You can change the font-family to your preference */
+    background-color: #f0f0f0; /* You can change the background color */
+  }
+  
+  /* Styling the navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling the sidebar */
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s ease;
+  }
+  
+  .sidebar.active {
+    left: 0;
+  }
+  
+  .logo-details {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .logo-details .logo_name {
+    font-size: 24px;
+  }
+  
+  /* Styling the main content */
+  .home-section {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  .home-content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Styling the table */
+  .table-data {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-data th, .table-data td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .table-data th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Styling buttons */
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
