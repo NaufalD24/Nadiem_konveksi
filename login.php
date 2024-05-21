@@ -1,3 +1,4 @@
+<?php include 'auth.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -17,21 +18,21 @@
 			<div class="logo">
 			  <img src="assets/logo-removebg-preview.png" alt="" />
 			</div>
-			<a href="index.html">Home</a>
-			<a href="categories/categories.html">kategori</a>
-			<a href="transaction/transaction.html">transaksi</a>
-			<a href="login.html">Sign in</a>
+			<a href="index.php">Home</a>
+			<a href="categories/categories.php">kategori</a>
+			<a href="transaction/transaction.php">transaksi</a>
+			<a href="login.php">Sign in</a>
 		   </nav>
 		</header>
 		<main>
-      	   <div class="form-login">
-		     <h3>Login</h3>
-		     <input type="text" name="username" placeholder="Username" />
-		     <input type="password" name="password" placeholder="Password" />
-		     <button type="submit">Login</button>
-             <a href="register.html">Belum punya akun? daftar disini</a>
-		    </div>
-		</main>
+    		<form method="post" action="index.php" class="form-login">
+        		<h3>Login</h3>
+        		<input type="text" name="username" placeholder="Username" />
+        		<input type="password" name="password" placeholder="Password" />
+        		<button type="submit">Login</button>
+    		</form>
+    		<a href="register.php">Belum punya akun? daftar disini</a>
+</main>
 		<footer>
 			<h4>&copy; Naufal Dhiaurrafif 2024</h4>
 		</footer>

@@ -22,10 +22,10 @@
                 <div class="logo">
                     <img src="assets/logo-removebg-preview.png" alt="" />
                 </div>
-                <a href="index.html"> Home</a>
-                <a href="categories/categories.html">Categories</a>
-                <a href="transaction/transaction.html">transaksi</a>
-			<a href="login.html">Sign in</a>
+                <a href="index.php"> Home</a>
+                <a href="categories/categories.php">Categories</a>
+                <a href="transaction/transaction.php">transaksi</a>
+			<a href="login.php">Sign in</a>
             </nav>
         </header>
         <main>
